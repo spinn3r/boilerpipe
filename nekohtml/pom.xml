@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.kohlschutter.boilerpipe</groupId>
     <artifactId>boilerpipe-parent</artifactId>
-    <version>2.0-spinn3r-4</version>
+    <version>5.1-LATEST-6</version>
   </parent>
   <name>nekohtml</name>
   <properties>
