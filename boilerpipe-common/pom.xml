@@ -40,13 +40,13 @@
     <dependency>
       <groupId>com.kohlschutter.boilerpipe</groupId>
       <artifactId>nekohtml</artifactId>
-      <version>1.9.13</version>
+      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>com.kohlschutter.boilerpipe</groupId>
       <artifactId>nekohtml-relocated</artifactId>
-      <version>1.9.13</version>
+      <version>${project.version}</version>
     </dependency>
 
     <dependency>
