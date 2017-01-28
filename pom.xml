@@ -106,6 +106,23 @@
 
 
     <plugins>
+
+      <!-- turn on the jdeb plugin for all projects but skip it. This way
+     we can run jdeb:jdeb from our parent project so that all
+     packages in all submodules will be made -->
+
+      <plugin>
+
+        <artifactId>jdeb</artifactId>
+        <groupId>org.vafer</groupId>
+        <version>1.4</version>
+
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+
+      </plugin>
+
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <groupId>org.apache.maven.plugins</groupId>
