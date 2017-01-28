@@ -37,15 +37,6 @@
     <boilerpipe.parent.base.directory>${project.basedir}</boilerpipe.parent.base.directory>
   </properties>
 
-  <distributionManagement>
-
-    <repository>
-      <id>ssh-repository</id>
-      <url>sftp://util0017.wdc.sl.spinn3r.com/var/www/maven-repo/public</url>
-    </repository>
-
-  </distributionManagement>
-
   <profiles>
     <profile>
       <id>eclipse-compiler-checks</id>
